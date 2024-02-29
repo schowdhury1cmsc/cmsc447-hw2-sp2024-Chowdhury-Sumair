@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS usrdata;
+
+CREATE TABLE usrdata (
+    id_1 INTEGER PRIMARY KEY AUTOINCREMENT,
+    username TEXT NOT NULL,
+    id INTEGER,
+    points INTEGER
+);
